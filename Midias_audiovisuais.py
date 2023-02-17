@@ -11,6 +11,13 @@ class Midias_audiovisuais:
     def dar_like(self):
         self.__likes += 1
         
+    def mostra_informacoes(self):
+        print(f"Título: {self.__titulo}")
+        print(f"Ano: {self.__ano}")
+        print(f"Roteirista: {self.__roteirista}")
+        print(f"Diretor: {self.__diretor}")
+        print(f"Gênero: {self.__genero}")
+        print(f"Likes: {self.__likes}")
     #properties
     @property
     def titulo(self):

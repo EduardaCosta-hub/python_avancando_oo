@@ -8,4 +8,4 @@ class Serie(Midias_audiovisuais):
         return self.__temporadas
     @temporada.setter
     def temporada(self, pTemporadas):
-        self.__temporadas = pTemporadas
+        self.__temporadas = pTemporadas 
