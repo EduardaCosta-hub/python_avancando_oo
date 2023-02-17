@@ -51,7 +51,7 @@ class Midias_audiovisuais:
     def likes(self):
         return self.__likes
     @likes.setter
-    def titulo(self, likes):
+    def likes(self, likes):
         likes = self.__likes
         self.__likes = likes
         print("Você não pode alterar o número de likes manualmente. É necessário invocar o método 'dar_like()'")
