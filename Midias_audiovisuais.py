@@ -1,8 +1,8 @@
-class Filme:
-    def __init__(self, pTitulo, pAno, pDuracao, pDiretor, pGenero):
+class Midias_audiovisuais:
+    def __init__(self, pTitulo, pAno, pRoteirista, pDiretor, pGenero):
         self.__titulo = pTitulo
         self.__ano = pAno
-        self.__duracao = pDuracao
+        self.__roteirista = pRoteirista
         self.__diretor = pDiretor
         self.__genero = pGenero
         self.__likes = 0
@@ -27,11 +27,11 @@ class Filme:
         self.__ano = pAno
         
     @property
-    def duracao(self):
-        return self.__duracao
-    @duracao.setter
-    def duracao(self, pDuracao):
-        self.__duracao = pDuracao
+    def roteirista(self):
+        return self.__roteirista
+    @roteirista.setter
+    def roteirista(self, pRoteirista):
+        self.__roteirista = pRoteirista
     
     @property
     def diretor(self):
