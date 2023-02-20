@@ -5,9 +5,9 @@ class Serie(Midias_audiovisuais):
         self.__temporadas = pTemporadas
         
     #methods
-    def mostra_informacoes(self):
+    def __str__(self):
         super().mostra_informacoes()
-        print(f"Temporadas: {self.__temporadas}")
+        return f"Temporadas: {self.__temporadas}"
     
     #properties
     @property

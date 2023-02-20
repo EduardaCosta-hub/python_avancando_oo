@@ -5,9 +5,9 @@ class Filme(Midias_audiovisuais):
         self.__duracao = pDuracao
     
     #methods
-    def mostra_informacoes(self):
+    def __str__(self):
         super().mostra_informacoes()
-        print(f"Duração: {self.__duracao}")
+        return f"Duração: {self.__duracao}"
     
     #properties
     @property
