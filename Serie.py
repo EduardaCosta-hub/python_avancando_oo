@@ -7,7 +7,7 @@ class Serie(Midias_audiovisuais):
     #methods
     def mostra_informacoes(self):
         super().mostra_informacoes()
-        print(f"Duração: {self.__temporadas}")
+        print(f"Temporadas: {self.__temporadas}")
     
     #properties
     @property
